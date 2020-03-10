@@ -1,0 +1,55 @@
+body{
+	padding: -15px;
+	margin: 15px;
+}
+
+label,input{
+	display: block;
+	line-height: 30px;
+	height: 30px;
+	outline: none;
+	font-size: 13pt;
+	width: 100%;
+}
+
+form{
+	width: 330px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	margin: 30px 0px;
+}
+
+input[type="submit"]{
+	margin-top: 20px;
+}
+
+@media (min-width: 100px) and (max-width: 1000px){
+	body{
+	padding: -15px;
+	margin: 15px;
+}
+
+label, input {
+    display: block;
+    line-height: 75px;
+    height: 151px;
+    outline: none;
+    font-size: 49pt;
+    width: 100%;
+}
+
+form{
+	width: 330px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	margin: 30px 0px;
+}
+
+input[type="submit"]{
+	margin-top: 20px;
+}
+h1{
+	font-size: 60px;
+}
+
+}
